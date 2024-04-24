@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\views\\cuadradoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\views\\cuadradoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|c:\\users\\franc\\onedrive\\escritorio\\programacion\\figurasgeometricaswinform\\figurasgeometricaswinform\\views\\cuadradoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\views\\cuadradoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|c:\\users\\franc\\onedrive\\escritorio\\programacion\\figurasgeometricaswinform\\figurasgeometricaswinform\\views\\trianguloview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\views\\trianguloview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\controllers\\figuracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\controllers\\figuracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\interfaces\\ifigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\interfaces\\ifigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\mainviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\mainviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\models\\cuadradomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\models\\cuadradomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\models\\triangulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\models\\triangulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\models\\circulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\models\\circulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\figurasgeometricaswinform\\views\\circuloview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C046E064-4E15-4546-98DE-44531CC3FAC0}|FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj|solutionrelative:figurasgeometricaswinform\\views\\circuloview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1840569964:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrianguloView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\TrianguloView.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Views\\TrianguloView.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\TrianguloView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Views\\TrianguloView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T22:42:24.37Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FiguraController.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Controllers\\FiguraController.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Controllers\\FiguraController.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Controllers\\FiguraController.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Controllers\\FiguraController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:37:27.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFigura.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Interfaces\\IFigura.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Interfaces\\IFigura.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Interfaces\\IFigura.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Interfaces\\IFigura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:45:16.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuadradoView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CuadradoView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Views\\CuadradoView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:05:49.41Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CuadradoView.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Views\\CuadradoView.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAMwCUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:17:54.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\MainViewForm.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\MainViewForm.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\MainViewForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\MainViewForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:21:34.076Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CuadradoModel.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\CuadradoModel.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Models\\CuadradoModel.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\CuadradoModel.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Models\\CuadradoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADgvz0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:31:16.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CirculoModel.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\CirculoModel.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Models\\CirculoModel.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\CirculoModel.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Models\\CirculoModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:49:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrianguloModel.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\TrianguloModel.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Models\\TrianguloModel.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Models\\TrianguloModel.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Models\\TrianguloModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvx4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T21:39:31.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Program.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Program.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Program.cs",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:49:44.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CirculoView.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CirculoView.cs",
+              "RelativeDocumentMoniker": "FigurasGeometricasWINFORM\\Views\\CirculoView.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\Views\\CirculoView.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FigurasGeometricasWINFORM\\Views\\CirculoView.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:17:16.349Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
