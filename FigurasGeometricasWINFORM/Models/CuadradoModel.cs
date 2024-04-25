@@ -19,16 +19,6 @@ namespace FigurasGeometricasWINFORM.Models
             this.longitudLado = longitudLado;
         }
 
-        public float calcularSuperficie()
-        {
-            return (float)Math.Pow(longitudLado, 2);
-        }
-
-        public float calcularPerimetro()
-        {
-            return longitudLado * 4;
-        }
-
         public string getNombre()
         {
             return nombre;
@@ -43,20 +33,20 @@ namespace FigurasGeometricasWINFORM.Models
         {
             this.nombre = nombre;
         }
-
-        public override string ToString()
+           
+        public void setLongidutLado(float longitudLado)
         {
-            return $"Figura: {nombre} \n Longitud del lado: {longitudLado}";
+            this.longitudLado = longitudLado;
         }
 
-        public object GetLongitudLado()
+       public float calcularSuperficie()
         {
-            throw new NotImplementedException();
+            return (float)Math.Pow(longitudLado, 2);
         }
 
-        public object[] GetNombre()
+        public float calcularPerimetro()
         {
-            throw new NotImplementedException();
+            return longitudLado * 4;
         }
     }
 }

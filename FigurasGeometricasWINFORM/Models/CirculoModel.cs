@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FigurasGeometricasWINFORM.Models
 {
-    public class CirculoModel : ICalculable
+    public class CirculoModel : ICalculable, IFigura
     {
         private string nombre {  get; set; }
         private float radio {  get; set; }
@@ -16,6 +16,26 @@ namespace FigurasGeometricasWINFORM.Models
         {
             this.nombre = nombre;
             this.radio = radio;
+        }
+
+        public void setNombre(string nombre)
+        {
+            this.nombre = nombre;
+        }
+
+        public void setRadio(float radio)
+        {
+            this.radio = radio;
+        }
+
+        public string getNombre()
+        {
+            return this.nombre;
+        }
+
+        public float getRadio()
+        {
+            return this.radio;
         }
 
         public float calcularSuperficie()

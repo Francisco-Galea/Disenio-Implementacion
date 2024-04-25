@@ -17,7 +17,7 @@ namespace FigurasGeometricasWINFORM.Views
         {
             InitializeComponent();
             dataGridViewFiguras.AutoGenerateColumns = false;
-            dataGridViewFiguras.ColumnCount = 4;
+            dataGridViewFiguras.ColumnCount = 5;
             dataGridViewFiguras.Columns[0].Name = "Nombre";
             dataGridViewFiguras.Columns[0].DataPropertyName = "Nombre";
             dataGridViewFiguras.Columns[1].Name = "Longitud de Lado";
@@ -26,22 +26,27 @@ namespace FigurasGeometricasWINFORM.Views
             dataGridViewFiguras.Columns[2].DataPropertyName = "Superficie";
             dataGridViewFiguras.Columns[3].Name = "Perímetro";
             dataGridViewFiguras.Columns[3].DataPropertyName = "Perimetro";
+            dataGridViewFiguras.Columns[4].Name = "Altura";
+            dataGridViewFiguras.Columns[4].DataPropertyName = "Altura";
+            FiguraController.MostrarFiguras(dataGridViewFiguras);
         }
 
         private void btnCrearCuadrado_Click(object sender, EventArgs e)
         {
-
             string nombre = "Cuadrado";
-            float longitudLado = float.Parse(txtLongitudLado.Text);
+            //float longitudLado = float.Parse(txtLongitudLado.Text);
+            string longitudLado = txtLongitudLado.Text;
+            FiguraController.validacionLado(nombre, longitudLado);
 
-            FiguraController.crearCuadrado(nombre, longitudLado);
-            //listBox1.Items.Add(nombre);
-
-
+            //FiguraController.crearCuadrado(nombre, longitudLado);
+            FiguraController.MostrarFiguras(dataGridViewFiguras);
         }
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-            FiguraController.mostrarFiguras(dataGridViewFiguras);
+            MainViewForm newFrame= new MainViewForm();
+            newFrame.Show();
+            this.Hide();
         }
     }
 }

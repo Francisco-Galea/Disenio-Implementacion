@@ -33,6 +33,7 @@
             txtLongitudLado = new TextBox();
             btnCrearCuadrado = new Button();
             dataGridViewFiguras = new DataGridView();
+            btnRegresar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewFiguras).BeginInit();
             SuspendLayout();
             // 
@@ -63,7 +64,7 @@
             // 
             // btnCrearCuadrado
             // 
-            btnCrearCuadrado.Location = new Point(194, 103);
+            btnCrearCuadrado.Location = new Point(194, 77);
             btnCrearCuadrado.Name = "btnCrearCuadrado";
             btnCrearCuadrado.Size = new Size(114, 29);
             btnCrearCuadrado.TabIndex = 4;
@@ -74,18 +75,29 @@
             // dataGridViewFiguras
             // 
             dataGridViewFiguras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewFiguras.Location = new Point(12, 138);
+            dataGridViewFiguras.Location = new Point(12, 112);
             dataGridViewFiguras.Name = "dataGridViewFiguras";
             dataGridViewFiguras.RowHeadersWidth = 51;
             dataGridViewFiguras.ShowRowErrors = false;
-            dataGridViewFiguras.Size = new Size(563, 300);
+            dataGridViewFiguras.Size = new Size(680, 326);
             dataGridViewFiguras.TabIndex = 5;
+            // 
+            // btnRegresar
+            // 
+            btnRegresar.Location = new Point(698, 409);
+            btnRegresar.Name = "btnRegresar";
+            btnRegresar.Size = new Size(94, 29);
+            btnRegresar.TabIndex = 6;
+            btnRegresar.Text = "Regresar";
+            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // CuadradoView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(804, 450);
+            Controls.Add(btnRegresar);
             Controls.Add(dataGridViewFiguras);
             Controls.Add(btnCrearCuadrado);
             Controls.Add(txtLongitudLado);
@@ -100,11 +112,11 @@
 
         #endregion
 
-        private ListBox listBox1;
         private Label lblTitulo;
         private Label lblIngreseLongitudLado;
         private TextBox txtLongitudLado;
         private Button btnCrearCuadrado;
         private DataGridView dataGridViewFiguras;
+        private Button btnRegresar;
     }
 }

@@ -8,6 +8,6 @@ namespace FigurasGeometricasWINFORM.Interfaces
 {
     public interface IFigura
     {
-       
+        
     }
 }
