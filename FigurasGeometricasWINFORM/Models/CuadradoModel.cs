@@ -10,36 +10,37 @@ namespace FigurasGeometricasWINFORM.Models
     public class CuadradoModel : IFigura, ICalculable
     {
         private string nombre {  get; set; }
+        private int cantidadLados { get; set; }
         private float longitudLado { get; set; }
+        
 
 
-        public CuadradoModel(string nombre, float longitudLado)
+        public CuadradoModel(string nombre, int cantidadLados, float longitudLado)
         {
             this.nombre = nombre;
-            this.longitudLado = longitudLado;
+            this.cantidadLados = cantidadLados;
+            this.longitudLado = longitudLado;           
         }
 
-        public string getNombre()
+        public string Nombre
         {
-            return nombre;
+            set { nombre = value; }
+            get { return nombre; }
         }
 
-        public float getLongitudLado()
-        {  
-            return longitudLado;
-        }
-
-        public void setNombre(string nombre)
+        public float LongitudLado
         {
-            this.nombre = nombre;
-        }
-           
-        public void setLongidutLado(float longitudLado)
-        {
-            this.longitudLado = longitudLado;
+            set { longitudLado = value; }
+            get { return longitudLado; }
         }
 
-       public float calcularSuperficie()
+        public int CantidadLados
+        {
+            set { cantidadLados = value; }
+            get { return cantidadLados; }
+        }
+
+        public float calcularSuperficie()
         {
             return (float)Math.Pow(longitudLado, 2);
         }

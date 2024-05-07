@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FigurasGeometricasWINFORM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8727ff8e0c379592a8597cc2bf97690a4a676b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c4ecf85d6eb7bf8387d3643a04084bedd2d201")]
 [assembly: System.Reflection.AssemblyProductAttribute("FigurasGeometricasWINFORM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FigurasGeometricasWINFORM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,31 +10,33 @@ namespace FigurasGeometricasWINFORM.Models
     public class TrianguloModel : ICalculable, IFigura
     {
         private string nombre { get; set; }
+        private int cantidadLados { get; set; }
         private float longitudLado { get; set; }
+        
 
-        public TrianguloModel(string nombre, float longitudLado) {
-            this.nombre = nombre;
-            this.longitudLado = longitudLado;
-        }
-
-        public void setNombre(string nombre)
+        public TrianguloModel(string nombre, int cantidadLados, float longitudLado)
         {
             this.nombre = nombre;
+            this.cantidadLados = cantidadLados;
+            this.longitudLado = longitudLado;            
         }
 
-        public void setLongitudLado(float longitudLado)
+        public string Nombre
         {
-            this.longitudLado = longitudLado;
+           set { nombre = value; }
+           get { return nombre; }        
         }
 
-        public string getNombre()
+        public float LongitudLado
         {
-            return this.nombre;
+            set { longitudLado = value; }
+            get { return  longitudLado; }
         }
 
-        public float getLongitudLado()
+        public int CantidadLados
         {
-            return this.longitudLado;
+            set { cantidadLados = value; }
+            get { return cantidadLados; }
         }
 
         public float calcularAltura()

@@ -11,31 +11,31 @@ namespace FigurasGeometricasWINFORM.Models
     {
         private string nombre {  get; set; }
         private float radio {  get; set; }
+        private int cantidadLados {  get; set; }
      
-        public CirculoModel(string nombre, float radio)
+        public CirculoModel(string nombre, int cantidadLados, float radio)
         {
             this.nombre = nombre;
-            this.radio = radio;
+            this.cantidadLados = cantidadLados;
+            this.radio = radio;            
         }
 
-        public void setNombre(string nombre)
+        public string Nombre
         {
-            this.nombre = nombre;
+            set { nombre = value; }
+            get { return nombre; }
         }
 
-        public void setRadio(float radio)
+        public int CantidadLados
         {
-            this.radio = radio;
+            set { cantidadLados = value; }
+            get { return cantidadLados; }
         }
 
-        public string getNombre()
+        public float Radio
         {
-            return this.nombre;
-        }
-
-        public float getRadio()
-        {
-            return this.radio;
+           set { radio = value; }
+           get { return radio; }
         }
 
         public float calcularSuperficie()

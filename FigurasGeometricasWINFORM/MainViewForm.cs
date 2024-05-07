@@ -9,15 +9,11 @@ namespace FigurasGeometricasWINFORM
             InitializeComponent();
         }
 
-        /********************************************************************/
-        /********************************************************************/
-
         private void btnCreateSquare_Click(object sender, EventArgs e)
         {
             CuadradoView newFrame = new CuadradoView();
             newFrame.Show();
-            this.Hide();   
-            
+            this.Hide();
         }
 
         private void btnCreateTriangle_Click(object sender, EventArgs e)
@@ -29,13 +25,16 @@ namespace FigurasGeometricasWINFORM
 
         private void btnCreateCircle_Click(object sender, EventArgs e)
         {
-            CirculoView newFrame = new CirculoView();   
+            CirculoView newFrame = new CirculoView();
             newFrame.Show();
             this.Hide();
         }
 
-
-        /********************************************************************/
-        /********************************************************************/
+        private void btnPoligono_Click(object sender, EventArgs e)
+        {
+            PoligonoView newFrame = new PoligonoView();
+            newFrame.Show();
+            this.Hide();
+        }
     }
 }

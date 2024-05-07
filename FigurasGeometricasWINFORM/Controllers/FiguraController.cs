@@ -13,69 +13,94 @@ namespace FigurasGeometricasWINFORM.Controllers
     {
         private static List<IFigura>? listaFiguras = new List<IFigura>();
 
-        public static void validacionLado(string nombre, string longitudLado, int cantidadLados)
+        public static void validacionFigura(string nombre, string cantidadLados, string longitudLado)
         {
+            int cantidadLadosVerificado = validacionCantidadLados(cantidadLados);
+            float longitudLadoVerificado = validacionLongitudLados(longitudLado);
 
-            float test;
-            bool valid = false;
-            while (!valid)
+            if (cantidadLadosVerificado > 0 && longitudLadoVerificado > 0)
             {
-                valid = float.TryParse(longitudLado, out test);
-                if (!valid)
+                switch (nombre)
                 {
-                    MessageBox.Show("Ingrese un numero!");                   
+                    case "Circulo":
+                        crearCirculo(nombre, cantidadLadosVerificado, longitudLadoVerificado);
+                        break;
+                    case "Cuadrado":
+                        crearCuadrado(nombre, cantidadLadosVerificado, longitudLadoVerificado);
+                        break;
+                    case "Triangulo":
+                        crearTriangulo(nombre, cantidadLadosVerificado, longitudLadoVerificado);
+                        break;
+                    case "Poligono":
+                        if (cantidadLadosVerificado >= 3) 
+                        {
+                            crearPoligono(nombre, cantidadLadosVerificado, longitudLadoVerificado);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Un polígono debe tener al menos 3 lados.");
+                        }
+                        break;
+                    default:
+                        MessageBox.Show("Figura no reconocida.");
+                        break;
                 }
-                else
-                {
-                    switch(nombre)
-                    {
-                        case "Circulo":
-                            crearCirculo(nombre, test);
-                            break;
-
-                        case "Cuadrado": 
-                            crearCuadrado(nombre, test); 
-                            break;
-
-                        case "Triangulo":
-                            crearTriangulo(nombre, test);
-                            break;
-
-                        case "Poligino":
-                            crearPoligono(nombre, cantidadLados, test);
-                            break;
-
-
-                    }
-                }
-                valid = true;
             }
         }
 
-        public static void crearPoligono(string nombre, int cantidadLados, float longitudLado)
+        public static int validacionCantidadLados(string cantidadLados)
         {
-            IFigura poligono = new PoligonoRegularModel(nombre, cantidadLados, longitudLado);
+            int cantidadLadosVerificado = 0;
+            if (!int.TryParse(cantidadLados, out cantidadLadosVerificado) || cantidadLadosVerificado <= 0)
+            {
+                MessageBox.Show("Ingrese un numero mayor que 0"); ;
+            }      
+            else
+            {
+                int.Parse(cantidadLados);
+            }
+            return cantidadLadosVerificado;
+        }
+
+
+        public static float validacionLongitudLados(string longitudLados)
+        {
+            float longitudLadosVerificado = 0;
+            if(!float.TryParse(longitudLados, out longitudLadosVerificado) || longitudLadosVerificado <= 0)
+            {
+                MessageBox.Show("Ingrese un numero mayor que 0");      
+            }
+            else
+            {
+                float.Parse(longitudLados);
+            }
+            return longitudLadosVerificado;
+        }
+
+        public static void crearPoligono(string nombre, int cantidadLados, float longitudLados)
+        {
+            IFigura poligono = new PoligonoRegularModel(nombre, cantidadLados, longitudLados);
             agregarFigura(poligono);
             mensajeFiguraCreadaExito();
         }
 
-        public static void crearCuadrado(string nombre, float test)
+        public static void crearCuadrado(string nombre, int cantidadLados, float longitudLados)
         {
-            IFigura cuadrado = new CuadradoModel(nombre, test);
+            IFigura cuadrado = new CuadradoModel(nombre, cantidadLados, longitudLados);
             agregarFigura(cuadrado);
             mensajeFiguraCreadaExito();
         }
 
-        public static void crearTriangulo(string nombre, float test)
+        public static void crearTriangulo(string nombre, int cantidadLados, float longitudLados)
         {
-            IFigura triangulo = new TrianguloModel(nombre, test);
+            IFigura triangulo = new TrianguloModel(nombre, cantidadLados, longitudLados);
             agregarFigura(triangulo);
             mensajeFiguraCreadaExito();
         }
 
-        public static void crearCirculo(string nombre, float test)
+        public static void crearCirculo(string nombre, int cantidadLados, float longitudLados)
         {
-            IFigura circulo = new CirculoModel(nombre,test);
+            IFigura circulo = new CirculoModel(nombre, cantidadLados, longitudLados);
             agregarFigura(circulo);
             mensajeFiguraCreadaExito();
         }
@@ -87,30 +112,31 @@ namespace FigurasGeometricasWINFORM.Controllers
 
         public static void agregarFigura(IFigura figura)
         {
-            listaFiguras.Add(figura);
+            listaFiguras?.Add(figura);
         }
+
         public static void MostrarFiguras(DataGridView dataGridView)
         {                      
             foreach (var figura in listaFiguras)
             {
                 if (figura is CuadradoModel cuadrado)
                 {
-                    dataGridView.Rows.Add(cuadrado.getNombre(), cuadrado.getLongitudLado(), cuadrado.calcularSuperficie(), cuadrado.calcularPerimetro(), "-");
+                    dataGridView.Rows.Add(cuadrado.Nombre, cuadrado.LongitudLado, cuadrado.calcularSuperficie(), cuadrado.calcularPerimetro(), "-");
                 }
                 else
                     if (figura is TrianguloModel triangulo)
                     {
-                        dataGridView.Rows.Add(triangulo.getNombre(), triangulo.getLongitudLado(), triangulo.calcularSuperficie(), triangulo.calcularPerimetro(), triangulo.calcularAltura());
+                        dataGridView.Rows.Add(triangulo.Nombre, triangulo.LongitudLado, triangulo.calcularSuperficie(), triangulo.calcularPerimetro(), triangulo.calcularAltura());
                     }
                     else
                         if (figura is CirculoModel circulo)
                         {
-                            dataGridView.Rows.Add(circulo.getNombre(), circulo.getRadio(), circulo.calcularSuperficie(), circulo.calcularPerimetro(),"-", "-");
+                            dataGridView.Rows.Add(circulo.Nombre, circulo.Radio, circulo.calcularSuperficie(), circulo.calcularPerimetro(),"-", "-");
                         }     
                         else
                             if(figura is PoligonoRegularModel poligono)
                             {
-                    dataGridView.Rows.Add(poligono.getNombre(), poligono.getLongitudLado(), poligono.getCantidadLados, poligono.calcularSuperficie, poligono.calcularPerimetro);
+                                dataGridView.Rows.Add(poligono.Nombre, poligono.LongitudLado, poligono.CantidadLados, poligono.calcularSuperficie(), poligono.calcularPerimetro());
                             }
             }
         }

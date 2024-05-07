@@ -11,10 +11,11 @@ using System.Windows.Forms;
 
 namespace FigurasGeometricasWINFORM.Views
 {
-    public partial class CuadradoView : Form
+    public partial class PoligonoView : Form
     {
-        public CuadradoView()
+        public PoligonoView()
         {
+            InitializeComponent();
             InitializeComponent();
             dataGridViewFiguras.AutoGenerateColumns = false;
             dataGridViewFiguras.ColumnCount = 5;
@@ -31,21 +32,21 @@ namespace FigurasGeometricasWINFORM.Views
             FiguraController.MostrarFiguras(dataGridViewFiguras);
         }
 
-        private void btnCrearCuadrado_Click(object sender, EventArgs e)
-        {
-            string nombre = "Cuadrado";            
-            string longitudLado = txtLongitudLado.Text;
-            string cantidadLados = "4";
-
-            FiguraController.validacionFigura(nombre, cantidadLados, longitudLado);         
-            FiguraController.MostrarFiguras(dataGridViewFiguras);
-        }
-
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MainViewForm newFrame= new MainViewForm();
+            MainViewForm newFrame = new MainViewForm();
             newFrame.Show();
             this.Hide();
+        }
+
+        private void btnCrearPoligono_Click(object sender, EventArgs e)
+        {
+            string nombre = "Poligono";
+            string cantidadLados = txtCantidadLados.Text;
+            string longitudLado = txtLongitudLados.Text;
+            
+            FiguraController.validacionFigura(nombre, cantidadLados, longitudLado);
+            FiguraController.MostrarFiguras(dataGridViewFiguras);
         }
     }
 }

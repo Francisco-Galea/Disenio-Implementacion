@@ -32,21 +32,13 @@ namespace FigurasGeometricasWINFORM.Views
         }
 
         private void btnCrearFigura_Click(object sender, EventArgs e)
-        {
-            /*string nombre = "Circulo";
-            float radio = float.Parse(txtIngreseRadio.Text);
-
-            FiguraController.crearCirculo(nombre, radio);
-            FiguraController.MostrarFiguras(dataGridViewFiguras);*/
+        {           
             string nombre = "Circulo";
-            //float longitudLado = float.Parse(txtLongitudLado.Text);
+            string cantidadLados = "1"; //Lado lo tomo como Radio
             string longitudLado = txtIngreseRadio.Text;
-            FiguraController.validacionLado(nombre, longitudLado, 0);
-
-            //FiguraController.crearCuadrado(nombre, longitudLado);
+            
+            FiguraController.validacionFigura(nombre, cantidadLados, longitudLado);           
             FiguraController.MostrarFiguras(dataGridViewFiguras);
-
-
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)

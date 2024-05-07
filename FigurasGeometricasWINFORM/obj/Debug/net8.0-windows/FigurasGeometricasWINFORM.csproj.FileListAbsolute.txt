@@ -38,3 +38,4 @@ C:\Users\franc\Desktop\Disenio-Implementacion\FigurasGeometricasWINFORM\obj\Debu
 C:\Users\franc\Desktop\Disenio-Implementacion\FigurasGeometricasWINFORM\obj\Debug\net8.0-windows\FigurasGeometricasWINFORM.pdb
 C:\Users\franc\Desktop\Disenio-Implementacion\FigurasGeometricasWINFORM\obj\Debug\net8.0-windows\FigurasGeometricasWINFORM.genruntimeconfig.cache
 C:\Users\franc\Desktop\Disenio-Implementacion\FigurasGeometricasWINFORM\obj\Debug\net8.0-windows\ref\FigurasGeometricasWINFORM.dll
+C:\Users\franc\OneDrive\Escritorio\Programacion\FigurasGeometricasWINFORM\FigurasGeometricasWINFORM\obj\Debug\net8.0-windows\FigurasGeometricasWINFORM.Views.PoligonoView.resources

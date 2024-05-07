@@ -20,34 +20,22 @@ namespace FigurasGeometricasWINFORM.Models
             this.longitudLado = longitudLado;
         }
 
-        public void setNombre(string nombre)
+        public string Nombre
         {
-            this.nombre = nombre;
+            set { nombre = value; }
+            get { return nombre; }
         }
 
-        public string getNombre()
+        public float LongitudLado
         {
-            return nombre;
+            set { longitudLado = value; }
+            get { return longitudLado; }
         }
 
-        public int getCantidadLados()
+        public int CantidadLados
         {
-            return cantidadLados;
-        }
-
-        public void setCantidadLados(int cantidadLados)
-        {
-            this.cantidadLados = cantidadLados;
-        }
-
-        public float getLongitudLado()
-        {
-            return longitudLado;
-        }
-
-        public void setLongitudLado(float longitudLado)
-        {
-            this.longitudLado = longitudLado;
+            set { cantidadLados = value; }
+            get { return cantidadLados; }
         }
 
         public float calcularPerimetro()

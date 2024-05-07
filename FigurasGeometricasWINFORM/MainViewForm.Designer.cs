@@ -32,6 +32,7 @@
             btnCrearCuadrado = new Button();
             btnCrearTriangulo = new Button();
             btnCrearCirculo = new Button();
+            btnPoligono = new Button();
             SuspendLayout();
             // 
             // lblTitulo
@@ -55,7 +56,7 @@
             // 
             // btnCrearTriangulo
             // 
-            btnCrearTriangulo.Location = new Point(112, 208);
+            btnCrearTriangulo.Location = new Point(209, 208);
             btnCrearTriangulo.Name = "btnCrearTriangulo";
             btnCrearTriangulo.Size = new Size(94, 29);
             btnCrearTriangulo.TabIndex = 2;
@@ -65,7 +66,7 @@
             // 
             // btnCrearCirculo
             // 
-            btnCrearCirculo.Location = new Point(212, 208);
+            btnCrearCirculo.Location = new Point(12, 255);
             btnCrearCirculo.Name = "btnCrearCirculo";
             btnCrearCirculo.Size = new Size(94, 29);
             btnCrearCirculo.TabIndex = 3;
@@ -73,11 +74,22 @@
             btnCrearCirculo.UseVisualStyleBackColor = true;
             btnCrearCirculo.Click += btnCreateCircle_Click;
             // 
+            // btnPoligono
+            // 
+            btnPoligono.Location = new Point(209, 255);
+            btnPoligono.Name = "btnPoligono";
+            btnPoligono.Size = new Size(94, 29);
+            btnPoligono.TabIndex = 4;
+            btnPoligono.Text = "Poligono";
+            btnPoligono.UseVisualStyleBackColor = true;
+            btnPoligono.Click += btnPoligono_Click;
+            // 
             // MainViewForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(333, 277);
+            ClientSize = new Size(315, 336);
+            Controls.Add(btnPoligono);
             Controls.Add(btnCrearTriangulo);
             Controls.Add(btnCrearCirculo);
             Controls.Add(btnCrearCuadrado);
@@ -94,5 +106,6 @@
         private Button btnCrearCuadrado;
         private Button btnCrearTriangulo;
         private Button btnCrearCirculo;
+        private Button btnPoligono;
     }
 }
