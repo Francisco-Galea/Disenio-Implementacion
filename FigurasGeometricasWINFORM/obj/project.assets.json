@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\Desktop\\Disenio-Implementacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj",
       "projectName": "FigurasGeometricasWINFORM",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj",
+      "projectPath": "C:\\Users\\franc\\Desktop\\Disenio-Implementacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Programacion\\FigurasGeometricasWINFORM\\FigurasGeometricasWINFORM\\obj\\",
+      "outputPath": "C:\\Users\\franc\\Desktop\\Disenio-Implementacion\\FigurasGeometricasWINFORM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

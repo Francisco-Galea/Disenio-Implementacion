@@ -41,7 +41,7 @@ namespace FigurasGeometricasWINFORM.Views
             string nombre = "Circulo";
             //float longitudLado = float.Parse(txtLongitudLado.Text);
             string longitudLado = txtIngreseRadio.Text;
-            FiguraController.validacionLado(nombre, longitudLado);
+            FiguraController.validacionLado(nombre, longitudLado, 0);
 
             //FiguraController.crearCuadrado(nombre, longitudLado);
             FiguraController.MostrarFiguras(dataGridViewFiguras);

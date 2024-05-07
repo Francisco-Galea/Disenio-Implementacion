@@ -13,8 +13,9 @@ namespace FigurasGeometricasWINFORM.Controllers
     {
         private static List<IFigura>? listaFiguras = new List<IFigura>();
 
-        public static void validacionLado(string nombre, string longitudLado)
+        public static void validacionLado(string nombre, string longitudLado, int cantidadLados)
         {
+
             float test;
             bool valid = false;
             while (!valid)
@@ -39,10 +40,23 @@ namespace FigurasGeometricasWINFORM.Controllers
                         case "Triangulo":
                             crearTriangulo(nombre, test);
                             break;
+
+                        case "Poligino":
+                            crearPoligono(nombre, cantidadLados, test);
+                            break;
+
+
                     }
                 }
                 valid = true;
             }
+        }
+
+        public static void crearPoligono(string nombre, int cantidadLados, float longitudLado)
+        {
+            IFigura poligono = new PoligonoRegularModel(nombre, cantidadLados, longitudLado);
+            agregarFigura(poligono);
+            mensajeFiguraCreadaExito();
         }
 
         public static void crearCuadrado(string nombre, float test)
@@ -92,7 +106,12 @@ namespace FigurasGeometricasWINFORM.Controllers
                         if (figura is CirculoModel circulo)
                         {
                             dataGridView.Rows.Add(circulo.getNombre(), circulo.getRadio(), circulo.calcularSuperficie(), circulo.calcularPerimetro(),"-", "-");
-                        }              
+                        }     
+                        else
+                            if(figura is PoligonoRegularModel poligono)
+                            {
+                    dataGridView.Rows.Add(poligono.getNombre(), poligono.getLongitudLado(), poligono.getCantidadLados, poligono.calcularSuperficie, poligono.calcularPerimetro);
+                            }
             }
         }
     }

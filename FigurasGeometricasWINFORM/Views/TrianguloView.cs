@@ -37,7 +37,7 @@ namespace FigurasGeometricasWINFORM.Views
             string nombre = "Triangulo";
             //float longitudLado = float.Parse(txtLongitudLado.Text);
             string longitudLado = txtLongitudLado.Text;
-            FiguraController.validacionLado(nombre, longitudLado);
+            FiguraController.validacionLado(nombre, longitudLado, 3);
 
             //FiguraController.crearCuadrado(nombre, longitudLado);
             FiguraController.MostrarFiguras(dataGridViewFiguras);
