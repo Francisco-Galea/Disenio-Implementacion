@@ -16,19 +16,20 @@ namespace FigurasGeometricasWINFORM.Views
         public PoligonoView()
         {
             InitializeComponent();
-            InitializeComponent();
             dataGridViewFiguras.AutoGenerateColumns = false;
-            dataGridViewFiguras.ColumnCount = 5;
+            dataGridViewFiguras.ColumnCount = 6; 
             dataGridViewFiguras.Columns[0].Name = "Nombre";
             dataGridViewFiguras.Columns[0].DataPropertyName = "Nombre";
-            dataGridViewFiguras.Columns[1].Name = "Longitud de Lado";
-            dataGridViewFiguras.Columns[1].DataPropertyName = "LongitudLado";
-            dataGridViewFiguras.Columns[2].Name = "Superficie";
-            dataGridViewFiguras.Columns[2].DataPropertyName = "Superficie";
-            dataGridViewFiguras.Columns[3].Name = "Perímetro";
-            dataGridViewFiguras.Columns[3].DataPropertyName = "Perimetro";
-            dataGridViewFiguras.Columns[4].Name = "Altura";
-            dataGridViewFiguras.Columns[4].DataPropertyName = "Altura";
+            dataGridViewFiguras.Columns[1].Name = "Cantidad de Lados"; 
+            dataGridViewFiguras.Columns[1].DataPropertyName = "CantidadLados"; 
+            dataGridViewFiguras.Columns[2].Name = "Longitud de Lado";
+            dataGridViewFiguras.Columns[2].DataPropertyName = "LongitudLado";
+            dataGridViewFiguras.Columns[3].Name = "Superficie";
+            dataGridViewFiguras.Columns[3].DataPropertyName = "Superficie";
+            dataGridViewFiguras.Columns[4].Name = "Perímetro";
+            dataGridViewFiguras.Columns[4].DataPropertyName = "Perimetro";
+            dataGridViewFiguras.Columns[5].Name = "Altura";
+            dataGridViewFiguras.Columns[5].DataPropertyName = "Altura";
             FiguraController.MostrarFiguras(dataGridViewFiguras);
         }
 
@@ -44,7 +45,7 @@ namespace FigurasGeometricasWINFORM.Views
             string nombre = "Poligono";
             string cantidadLados = txtCantidadLados.Text;
             string longitudLado = txtLongitudLados.Text;
-            
+         
             FiguraController.validacionFigura(nombre, cantidadLados, longitudLado);
             FiguraController.MostrarFiguras(dataGridViewFiguras);
         }

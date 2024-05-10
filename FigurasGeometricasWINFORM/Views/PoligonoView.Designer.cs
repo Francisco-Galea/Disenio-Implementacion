@@ -41,7 +41,7 @@
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(694, 409);
+            btnRegresar.Location = new Point(818, 409);
             btnRegresar.Name = "btnRegresar";
             btnRegresar.Size = new Size(94, 29);
             btnRegresar.TabIndex = 0;
@@ -106,14 +106,14 @@
             dataGridViewFiguras.Location = new Point(12, 158);
             dataGridViewFiguras.Name = "dataGridViewFiguras";
             dataGridViewFiguras.RowHeadersWidth = 51;
-            dataGridViewFiguras.Size = new Size(562, 280);
+            dataGridViewFiguras.Size = new Size(800, 280);
             dataGridViewFiguras.TabIndex = 7;
             // 
             // PoligonoView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(924, 454);
             Controls.Add(dataGridViewFiguras);
             Controls.Add(btnCrearPoligono);
             Controls.Add(txtLongitudLados);

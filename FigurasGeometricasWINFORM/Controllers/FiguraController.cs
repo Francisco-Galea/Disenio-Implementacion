@@ -25,12 +25,15 @@ namespace FigurasGeometricasWINFORM.Controllers
                     case "Circulo":
                         crearCirculo(nombre, cantidadLadosVerificado, longitudLadoVerificado);
                         break;
+
                     case "Cuadrado":
                         crearCuadrado(nombre, cantidadLadosVerificado, longitudLadoVerificado);
                         break;
+
                     case "Triangulo":
                         crearTriangulo(nombre, cantidadLadosVerificado, longitudLadoVerificado);
                         break;
+
                     case "Poligono":
                         if (cantidadLadosVerificado >= 3) 
                         {
@@ -40,10 +43,7 @@ namespace FigurasGeometricasWINFORM.Controllers
                         {
                             MessageBox.Show("Un polígono debe tener al menos 3 lados.");
                         }
-                        break;
-                    default:
-                        MessageBox.Show("Figura no reconocida.");
-                        break;
+                        break;                   
                 }
             }
         }
@@ -118,27 +118,46 @@ namespace FigurasGeometricasWINFORM.Controllers
         public static void MostrarFiguras(DataGridView dataGridView)
         {                      
             foreach (var figura in listaFiguras)
-            {
-                if (figura is CuadradoModel cuadrado)
+            {               
+                switch(figura)
                 {
-                    dataGridView.Rows.Add(cuadrado.Nombre, cuadrado.LongitudLado, cuadrado.calcularSuperficie(), cuadrado.calcularPerimetro(), "-");
+                    case CuadradoModel cuadrado:
+                        mostrarCuadrado(dataGridView, cuadrado);
+                        break;
+                    
+                    case CirculoModel circulo:
+                        mostrarCirculo(dataGridView, circulo);
+                        break;
+
+                    case TrianguloModel triangulo:
+                        mostrarTriangulo(dataGridView, triangulo);
+                        break;
+                
+                    case PoligonoRegularModel poligonoRegular:
+                        mostrarPoligono(dataGridView, poligonoRegular);
+                        break;
                 }
-                else
-                    if (figura is TrianguloModel triangulo)
-                    {
-                        dataGridView.Rows.Add(triangulo.Nombre, triangulo.LongitudLado, triangulo.calcularSuperficie(), triangulo.calcularPerimetro(), triangulo.calcularAltura());
-                    }
-                    else
-                        if (figura is CirculoModel circulo)
-                        {
-                            dataGridView.Rows.Add(circulo.Nombre, circulo.Radio, circulo.calcularSuperficie(), circulo.calcularPerimetro(),"-", "-");
-                        }     
-                        else
-                            if(figura is PoligonoRegularModel poligono)
-                            {
-                                dataGridView.Rows.Add(poligono.Nombre, poligono.LongitudLado, poligono.CantidadLados, poligono.calcularSuperficie(), poligono.calcularPerimetro());
-                            }
             }
+        }
+
+        public static void mostrarCuadrado(DataGridView dataGridView, CuadradoModel cuadrado)
+        {
+            dataGridView.Rows.Add(cuadrado.Nombre, cuadrado.CantidadLados, cuadrado.LongitudLado, cuadrado.calcularSuperficie(), cuadrado.calcularPerimetro(), "-");
+        }
+
+        public static void mostrarCirculo(DataGridView dataGridView, CirculoModel circulo)
+        {
+            dataGridView.Rows.Add(circulo.Nombre, circulo.CantidadLados, circulo.Radio, circulo.calcularSuperficie(), circulo.calcularPerimetro(), "-", "-");
+        }
+
+        public static void mostrarTriangulo(DataGridView dataGridView, TrianguloModel triangulo)
+        {
+            dataGridView.Rows.Add(triangulo.Nombre, triangulo.CantidadLados, triangulo.LongitudLado, triangulo.calcularSuperficie(), triangulo.calcularPerimetro(), triangulo.calcularAltura());
+        }
+
+        public static void mostrarPoligono(DataGridView dataGridView, PoligonoRegularModel poligonoRegular)
+        {
+            dataGridView.Rows.Add(poligonoRegular.Nombre, poligonoRegular.CantidadLados, poligonoRegular.LongitudLado, poligonoRegular.calcularSuperficie(), poligonoRegular.calcularPerimetro(), "-");
         }
     }
 }
